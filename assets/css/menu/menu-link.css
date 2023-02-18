@@ -1,0 +1,29 @@
+
+/*.menu__link{
+    color: #808880;
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+.menu__link:hover{
+    text-decoration: underline;
+}*/
+.menu__link.activo{
+    color: #a8acac;
+
+}
+  
+.menu__link {
+    margin-right: 1.5rem;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #808880;
+    transition: 0.3s ease;
+    
+    
+ }
+.menu__link:hover {
+    border-top: 4px solid #06eaf2;
+    border-bottom: 4px solid #06eaf2;
+    padding: 6px 0; 
+ }
